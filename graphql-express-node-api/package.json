@@ -1,0 +1,31 @@
+{
+  "name": "graphql-express-node-api",
+  "version": "1.0.0",
+  "description": "Allows for specific data to be retrieved from MongoDb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ecmms-development/graphql-express-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ecmms-development/graphql-express-node-api/issues"
+  },
+  "homepage": "https://gitlab.com/ecmms-development/graphql-express-node-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "mongoose": "^5.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
